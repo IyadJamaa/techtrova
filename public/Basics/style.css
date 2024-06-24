@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #0d1117;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav bar */
+.nav-container {
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side {
+  list-style-type: none;
+}
+
+.logo-side,
+.right-side li {
+  display: inline-block;
+}
+
+.right-side li a {
+  font-family: "Roboto";
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 14px 16px;
+}
+.signin {
+  margin-right: 60px;
+  border: 2px solid #1d42c6;
+  border-radius: 12px;
+  background-color: #0b1b5089;
+  color: white;
+  height: 35px;
+  width: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  font-family: "ITC Handel Gothic Arabic W23Hv";
+  color: white;
+  padding-left: 32px;
+}
+
+.container {
+  max-width: 700px;
+  margin-left: 150px;
+  line-height: 1.8;
+}
+
+/* content */
+.content {
+  margin-left: 160px;
+  margin-right: 160px;
+  font-family: Inter;
+  line-height: 1.9;
+}
+
+h5 {
+  color: rgb(184 178 178);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(150, 149, 149, 0.564);
+  size: 1;
+}
+
+.link {
+  height: 200px;
+  max-height: 200px;
+  /* overflow-x: auto; */
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  background-color: rgb(14, 22, 31);
+  width: 250px;
+  min-width: 250px;
+  height: 200px;
+  min-height: 200px;
+  margin: 10px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 13px;
+  border: 1px rgb(26, 38, 52) solid;
+  transition-duration: 0.3s;
+}
+
+.links:hover {
+  background-color: rgb(24, 36, 50);
+  width: 260px;
+  height: 210px;
+}
+
+/* footer */
+.footer-icons a img {
+  width: 22px;
+  height: 22px;
+  margin-left: 20px;
+}
